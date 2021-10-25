@@ -364,9 +364,53 @@ window.jwplayer=function(t){function e(e){for(var n,i,o=e[0],u=e[1],a=0,s=[];a<o
 }(window.jwplayer));
 
 
-var jwDefaults = {
+/*!
+THIS IS THE ORIGINAL KEY OF MY SCRIPT, RETURN TO THIS IF ERROR HAPPEN - i.am.mfysa@gmail.com
+  var jwDefaults = {
   "key": "OjSayR4vCJbRyywcWJXmz5OFk9GmbHw51mjSLocTpYeo/4CD0g4pg6FwSEc=",
   "ph": 1,
   "pid": "DEFAULT0"
+  jwplayer.defaults = jwDefaults;
+*/
+
+var jwDefaults = {
+  "aspectratio": "16:9",
+  "autostart": false,
+  "cast": {
+    "appid": "00000000"
+  },
+  "controls": true,
+  "displaydescription": true,
+  "displaytitle": true,
+  "floating": {},
+  "ga": {
+    "idstring": "title"
+  },
+  "height": 360,
+  "key": "AHf2jE4B1nCxorwzXPbDetXlQ+MXXSiPkIQw70nUzqSU1mEcm22z6A==",
+  "logo": {
+    "file": "https://1.bp.blogspot.com/-gNOdsoppLrA/YXPBDtzvQPI/AAAAAAAAAHg/GPx84BgfWrk4U9O_TcLC4bXzyzAD2jB_QCNcBGAsYHQ/s220/logo%2Bpencurivids%2Bwhite%2Btext.png",
+    "hide": true,
+    "link": "https://pencurivids.blogspot.com",
+    "margin": "10",
+    "position": "top-left"
+  },
+  "mute": false,
+  "ph": 1,
+  "pid": "NFFcGSTd",
+  "playbackRateControls": true,
+  "preload": "metadata",
+  "repeat": false,
+  "sharing": {
+    "code": "",
+    "heading": "Share it",
+    "sites": [
+      "facebook",
+      "twitter",
+      "email"
+    ]
+  },
+  "stretching": "uniform",
+  "width": "100%"
 };
 jwplayer.defaults = jwDefaults;
