@@ -1,5 +1,7 @@
+/*!
 // video bebas dari penjara ini original from Izz
 // http://www.izz.co.in
+*/
 
 var frames = document.getElementsByTagName('iframe');
 for (var frame of frames) {
