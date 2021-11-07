@@ -374,6 +374,9 @@ THIS IS THE ORIGINAL KEY OF MY SCRIPT, RETURN TO THIS IF ERROR HAPPEN - i.am.mfy
 */
 
 var jwDefaults = {
+  "skin": {
+    "name": "Netflix"
+  },
   "aspectratio": "16:9",
   "autostart": false,
   "cast": {
